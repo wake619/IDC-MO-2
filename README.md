@@ -8,6 +8,21 @@
 
 > 由 GitHub Actions 自动构建发布：push 到 `main` 分支后 1~2 分钟内站点自动更新。
 
+## 📸 界面预览
+
+| 总览驾驶舱 | 3D 机房透视 |
+|:---:|:---:|
+| ![总览驾驶舱](docs/screenshots/overview.png) | ![3D 机房透视](docs/screenshots/dc3d.png) |
+
+> ⚠️ 截图占位中：`docs/screenshots/` 目录下暂无图片，GitHub 上会显示为破损图标，图片就位后自动渲染，无需再改 README。
+
+**如何替换为真实截图：**
+
+1. 本地运行 `npm run dev`，打开 http://localhost:5173（或直接访问在线演示地址）
+2. 分别进入「总览驾驶舱」与「3D 机房透视」页面，截取全屏效果图（建议 1920×1080，PNG 格式）
+3. 将截图命名为 `overview.png` 和 `dc3d.png`，放入 `docs/screenshots/` 目录
+4. `git add docs/screenshots/ && git commit -m "docs: 添加界面截图" && git push origin main`，推送后 GitHub 自动展示
+
 ## ✨ 功能模块
 
 | 模块 | 路由 | 说明 |
@@ -64,4 +79,4 @@ src/
 
 ## 📄 License
 
-仅供演示与学习使用。
+[MIT](./LICENSE) © 2026 wake619
